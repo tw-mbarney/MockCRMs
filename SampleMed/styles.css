@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  padding: 32px;
+}
+h1 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+
+.client {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  border: 1px solid grey;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+}
+
+.clientHolder {
+  display: flex;
+  gap: 16px;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
